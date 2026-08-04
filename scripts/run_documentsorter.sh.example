@@ -1,0 +1,11 @@
+#!/bin/zsh
+# Copy to run_documentsorter.sh. The Gemini key remains in your macOS Keychain.
+set -euo pipefail
+
+readonly PROJECT_DIR="${0:A:h:h}"
+readonly PYTHON_BIN="$PROJECT_DIR/.venv/bin/python"
+readonly KEYCHAIN_SERVICE="DocumentSorter.GeminiAPIKey"
+
+export GEMINI_API_KEY="$(/usr/bin/security find-generic-password -a "$USER" -s "$KEYCHAIN_SERVICE" -w)"
+cd "$PROJECT_DIR"
+exec "$PYTHON_BIN" -m smartsort.main --config "$PROJECT_DIR/config.json"

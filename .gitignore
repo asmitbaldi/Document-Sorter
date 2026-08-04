@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+logs/*.log
+.smartsort-undo.jsonl
+.smartsort-locks/
+config.local.json
+
+# Local macOS runtime state: use the tracked examples instead.
+config.json
+scripts/run_documentsorter.sh
+launchagent/com.asmitbaldi.documentsorter.plist

@@ -1,0 +1,10 @@
+{
+  "downloads_folder": "/Users/YOUR_USERNAME/Downloads",
+  "root_folder": "/Users/YOUR_USERNAME",
+  "confidence_threshold": 0.9,
+  "gemini_model": "gemini-3.5-flash-lite",
+  "dry_run": true,
+  "verbose_logging": false,
+  "settle_seconds": 3,
+  "max_gemini_retries": 3
+}
