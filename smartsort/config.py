@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-VALID_DESTINATIONS = frozenset({"ML", "AI", "OS", "IVP", "SWE", "SET", "MAD", "Other", "Downloads"})
+VALID_DESTINATIONS = frozenset({"ML", "AI", "OS", "IVP", "SWE", "SET", "MAD", "LTLS", "Other", "Downloads"})
 SUPPORTED_EXTENSIONS = frozenset({".pdf", ".docx", ".pptx", ".txt"})
 
 

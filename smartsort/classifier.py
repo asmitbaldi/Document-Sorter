@@ -45,6 +45,7 @@ class FilenameRouter:
         ("SWE", ("software engineering", "software design", "uml", "requirements engineering", "agile", "scrum")),
         ("SET", ("sustainable energy", "renewable energy", "solar energy", "wind energy", "energy technology")),
         ("MAD", ("mobile app development", "android development", "ios development", "flutter", "react native", "android studio", "kotlin", "swiftui")),
+        ("LTLS", ("learning through life skills", "life skills", "soft skills", "ltls", "self awareness", "self-awareness", "emotional intelligence", "interpersonal skills", "communication skills", "time management", "stress management", "conflict resolution", "problem solving", "decision making", "teamwork", "leadership skills", "personal development", "resilience")),
         ("AI", ("artificial intelligence", "ai unit", "intelligent agents", "knowledge representation")),
     )
 
@@ -118,6 +119,7 @@ IVP
 SWE
 SET
 MAD
+LTLS
 Other
 Downloads
 
@@ -129,6 +131,7 @@ IVP: Image and Video Processing.
 SWE: Software Engineering.
 SET: Sustainable Energy Technology.
 MAD: Mobile App Development.
+LTLS: Learning Through Life Skills, including communication, self-awareness, emotional intelligence, interpersonal skills, teamwork, leadership, time management, stress management, conflict resolution, problem solving, decision making, personal development, and resilience.
 Other: Semester V material that doesn't belong to the above.
 Downloads: Anything personal or unrelated.
 

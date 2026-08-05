@@ -5,7 +5,7 @@ DocumentSorter watches a macOS Downloads folder and safely sorts newly completed
 Only these paths can ever receive a file:
 
 - `ROOT/ML` for `ML`
-- `ROOT/Sem_V/AI`, `OS`, `IVP`, `SWE`, `SET`, `MAD`, or `Other`
+- `ROOT/Sem_V/AI`, `OS`, `IVP`, `SWE`, `SET`, `MAD`, `LTLS`, or `Other`
 
 `Downloads` is an explicit no-move decision. Personal/unsupported/hidden/temp files and AI responses below the configured confidence threshold remain in Downloads.
 
@@ -24,7 +24,7 @@ Review `config.json` before use. It defaults to dry-run mode, so no document mov
 Create the expected folders once (the sorter also creates individual safe targets when needed):
 
 ```zsh
-mkdir -p ~/ML ~/Sem_V/{AI,OS,IVP,SWE,SET,MAD,Other}
+mkdir -p ~/ML ~/Sem_V/{AI,OS,IVP,SWE,SET,MAD,LTLS,Other}
 ```
 
 Run the watcher:

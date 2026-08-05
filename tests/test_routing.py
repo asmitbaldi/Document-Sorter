@@ -13,6 +13,7 @@ class FilenameRouterTests(unittest.TestCase):
             ("Software Engineering UML.docx", "SWE"),
             ("Solar Energy Notes.txt", "SET"),
             ("Flutter Mobile App Development.pptx", "MAD"),
+            ("LTLS_Syllabus.pdf", "LTLS"),
             ("Artificial Intelligence Unit 2.pdf", "AI"),
         ]
         for filename, expected in cases:
